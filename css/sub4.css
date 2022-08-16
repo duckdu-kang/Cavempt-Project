@@ -1,0 +1,380 @@
+*.image {
+  -webkit-box-shadow: 0 5px 10px #ccc;
+          box-shadow: 0 5px 10px #ccc;
+}
+
+.ss20 section {
+  padding-top: 120px;
+}
+
+.ss20 section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ss20 section article header {
+  width: calc(50% - 20px);
+  text-align: left;
+  padding-top: 200px;
+}
+
+.ss20 section article header p {
+  padding: 40px 0;
+}
+
+.ss20 section article header h5 {
+  cursor: pointer;
+}
+
+.ss20 section article .image {
+  width: calc(50% - 20px);
+  height: 600px;
+  background-image: url("../img/ss20.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.ss20 section .imgGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+.ss20 section .imgGroup article {
+  width: calc(100% / 3 - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ss20 section .imgGroup article h5 {
+  cursor: pointer;
+}
+
+.ss20 section .imgGroup article .image {
+  width: 100%;
+  height: 560px;
+}
+
+.ss20 section .imgGroup article .i1 {
+  background-image: url("../img/ss20-1.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.ss20 section .imgGroup article .i2 {
+  background-image: url("../img/ss20-2.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.ss20 section .imgGroup article .i3 {
+  background-image: url("../img/ss20-3.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.banner section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.banner section .image {
+  width: calc(100% / 12 * 8);
+  height: 680px;
+  background-image: url("../img/ban.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner section h6 {
+  position: absolute;
+  right: 180px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.fw19 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fw19 header .image {
+  width: calc(50% - 20px);
+  height: 600px;
+  background-image: url("../img/fw19-11.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.fw19 header .texts {
+  width: calc(50% - 20px);
+  text-align: left;
+}
+
+.fw19 header .texts p {
+  font-size: 12px;
+  color: #555;
+  padding: 40px 0;
+}
+
+.fw19 header .texts h5 {
+  line-height: 40px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fw19 header .texts .image {
+  width: 50%;
+  height: 280px;
+  margin-top: 40px;
+  margin-left: 280px;
+  background-image: url("../img/fw19-12.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fw19 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fw19 section article {
+  width: calc(100% / 3 - 20px);
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fw19 section article h5 {
+  cursor: pointer;
+}
+
+.fw19 section article .image {
+  width: 100%;
+  height: 560px;
+}
+
+.fw19 section article .i1 {
+  background-image: url("../img/fw19-1.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.fw19 section article .i2 {
+  background-image: url("../img/fw19-2.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.fw19 section article .i3 {
+  background-image: url("../img/fw19-3.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+@media screen and (max-width: 780px) {
+  div.ss20 section article header {
+    padding-top: 80px;
+  }
+  div.ss20 section article header h3 {
+    font-size: 24px;
+  }
+  div.ss20 section article header p {
+    font-size: 10px;
+  }
+  div.ss20 section article header h5 {
+    cursor: pointer;
+  }
+  div.ss20 section article .image {
+    height: 400px;
+  }
+  div.ss20 section .imgGroup {
+    height: 320px;
+  }
+  div.ss20 section .imgGroup article h5 {
+    cursor: pointer;
+  }
+  div.banner section .image {
+    height: 400px;
+  }
+  div.banner section h6 {
+    right: 60px;
+  }
+  div.fw19 {
+    padding-bottom: 0;
+  }
+  div.fw19 header .image {
+    height: 380px;
+  }
+  div.fw19 header .texts h3 {
+    font-size: 24px;
+  }
+  div.fw19 header .texts p {
+    padding: 20px 0;
+    font-size: 10px;
+  }
+  div.fw19 header .texts h5 {
+    cursor: pointer;
+    font-size: 8px;
+  }
+  div.fw19 header .texts .image {
+    margin: auto;
+    margin-left: 160px;
+    height: 140px;
+  }
+  div.fw19 section article .image {
+    height: 320px;
+  }
+  div.fw19 section article h5 {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  div.ss20 section {
+    padding-top: 0;
+  }
+  div.ss20 section article {
+    display: block;
+  }
+  div.ss20 section article header {
+    width: calc(100% - 20px);
+    padding-top: 0;
+  }
+  div.ss20 section article header h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  div.ss20 section article header p {
+    display: none;
+  }
+  div.ss20 section article header h5 {
+    display: none;
+  }
+  div.ss20 section article .image {
+    width: 100%;
+    height: 280px;
+  }
+  div.ss20 section .imgGroup {
+    margin-top: 10px;
+    height: 200px;
+  }
+  div.ss20 section .imgGroup article {
+    width: calc(100% / 3 - 5px);
+  }
+  div.ss20 section .imgGroup article .image {
+    height: 100%;
+  }
+  div.ss20 section .imgGroup article h5 {
+    cursor: pointer;
+    font-size: 10px;
+  }
+  div.banner {
+    padding: 0;
+  }
+  div.banner section .image {
+    width: 100%;
+    height: 280px;
+  }
+  div.banner section h6 {
+    color: #fff;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  div.fw19 {
+    padding-bottom: 10px;
+  }
+  div.fw19 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  div.fw19 header .image {
+    width: calc(60% - 20px);
+    height: 280px;
+  }
+  div.fw19 header .texts {
+    width: calc(40% - 20px);
+  }
+  div.fw19 header .texts h3 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  div.fw19 header .texts p {
+    display: none;
+  }
+  div.fw19 header .texts h5 {
+    font-size: 12px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  div.fw19 header .texts .image {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+  }
+  div.fw19 section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  div.fw19 section article {
+    width: 100%;
+    width: calc(100% / 2 - 10px);
+    margin-top: 20px;
+  }
+  div.fw19 section article h5 {
+    display: none;
+  }
+  div.fw19 section article .image {
+    width: 100%;
+    height: 280px;
+  }
+  div.fw19 section article:last-of-type {
+    width: 100%;
+    margin-top: 0;
+  }
+  div.fw19 section article:last-of-type .image {
+    background-position: center;
+  }
+}

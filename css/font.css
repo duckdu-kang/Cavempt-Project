@@ -1,0 +1,27 @@
+/* font.css */
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700;900&display=swap');
+/* gaegu 3,4,700
+   Nanum Pen Script 400 */
+@import url('all.css');
+@import url('xeicon.css');
+
+@font-face {
+    font-family: 'Factory';
+    font-weight: 900;
+    src: url('../fonts/Typo_FactoryEB.ttf');
+}
+@font-face {
+    font-family: 'Factory';
+    font-weight: 700;
+    src: url('../fonts/Typo_FactoryB.ttf');
+}
+@font-face {
+    font-family: 'Factory';
+    font-weight: 500;
+    src: url('../fonts/Typo_FactoryM.ttf');
+}
+@font-face {
+    font-family: 'Factory';
+    font-weight: 300;
+    src: url('../fonts/Typo_FactoryL.ttf');
+}

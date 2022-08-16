@@ -1,0 +1,625 @@
+.main {
+  background-image: url("../img/bgmain.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.main section {
+  padding: 80px 0;
+}
+
+.main section h3 {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.main section .image {
+  background-image: url("../img/ml1.png");
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 245px;
+  margin: 0 auto;
+}
+
+.main section .image:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+}
+
+.ct01 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% / 3 - 20px);
+  position: relative;
+}
+
+.ct01 section .name {
+  text-align: left;
+}
+
+.ct01 section .name p {
+  width: 280px;
+}
+
+.ct01 section .imgGroup {
+  width: calc(100% / 2 + 20px);
+  position: relative;
+}
+
+.ct01 section .imgGroup .i1 {
+  width: calc(100% - 420px);
+  height: 200px;
+  background-color: #fc0;
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+.ct01 section .imgGroup .i2 {
+  width: calc(100% - 200px);
+  height: 480px;
+  background-color: #999;
+  margin: 0 auto;
+}
+
+.ct01 section .imgGroup .i3 {
+  width: calc(100% - 420px);
+  height: 200px;
+  background-color: #f90;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+.ct01 section .imgGroup .i1 {
+  background-image: url("../img/logo1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ct01 section .imgGroup .i2 {
+  background-image: url("../img/logo2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ct01 section .imgGroup .i3 {
+  background-image: url("../img/logo3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ct01 section .texts {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ct01 section .texts p {
+  width: 280px;
+}
+
+.ct01 section .texts .btns {
+  margin-top: 40px;
+}
+
+.ct01 section .texts .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.ct01 section .texts .hvr-grow:hover, .ct01 section .texts .hvr-grow:focus, .ct01 section .texts .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.lb {
+  background-color: #339;
+}
+
+.lb header h3 {
+  text-align: left;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.lb section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.lb section .image {
+  width: calc(50% - 20px);
+  height: 560px;
+  background-color: #999;
+  background-image: url("../img/lk.jpg");
+  background-position: top;
+  background-size: cover;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+}
+
+.lb section .image:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.lb section .imgGroup {
+  width: calc(50% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.lb section .imgGroup .image {
+  background-color: #999;
+  height: 270px;
+  margin: 0 10px;
+}
+
+.lb section .imgGroup .i1 {
+  background-image: url("../img/lk1.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.lb section .imgGroup .i2 {
+  background-image: url("../img/lk2.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.lb section .imgGroup .i3 {
+  background-image: url("../img/lk3.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.lb section .imgGroup .i4 {
+  background-image: url("../img/lk4.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.store {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.store .texts {
+  width: calc(100% / 12 * 5);
+  padding: 80px 0;
+}
+
+.store .texts p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555;
+  width: 280px;
+  padding: 40px 0;
+}
+
+.store .imgview {
+  width: calc(100% / 12 * 7);
+  overflow: hidden;
+}
+
+.store .imgview .imgGroup {
+  width: calc(100% * 4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.store .imgview .imgGroup .image {
+  width: calc(100% / 4);
+  height: 440px;
+  background-color: #999;
+}
+
+.store .imgview .imgGroup .i1 {
+  background-image: url("../img/st1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.store .imgview .imgGroup .i2 {
+  background-image: url("../img/st2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.store .imgview .imgGroup .i3 {
+  background-image: url("../img/st3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.store .imgview .imgGroup .i4 {
+  background-image: url("../img/st4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.store .imgview .imgGroup .i5 {
+  background-image: url("../img/st5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.store .imgview .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.store .imgview .btns button {
+  background-color: transparent;
+  color: #000;
+  width: 80px;
+}
+
+.insta {
+  background-color: #339;
+}
+
+.insta section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.insta section article {
+  width: calc(100% / 4 - 20px);
+}
+
+.insta section article .texts {
+  position: relative;
+}
+
+.insta section article .texts h5 {
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.insta section article .texts h3 {
+  color: #fff;
+}
+
+.insta section .image {
+  height: 360px;
+}
+
+.insta section .hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.insta section .hvr-buzz:hover, .insta section .hvr-buzz:focus, .insta section .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.insta section .i1 {
+  background-image: url("../img/insta1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.insta section .i2 {
+  background-image: url("../img/insta2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.insta section .i3 {
+  background-image: url("../img/insta3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner.banner {
+  padding: 0;
+}
+
+.banner .texts {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 240px;
+}
+
+.banner .texts h3 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 10px 20px black;
+}
+
+.banner .texts .box {
+  width: 220px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  line-height: 40px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-indent: 10px;
+}
+
+.banner .image {
+  background-image: url("../img/join_op.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 480px;
+}
+
+@media screen and (max-width: 780px) {
+  h3 {
+    font-size: 30px;
+  }
+  .ct01 section .name h3 {
+    font-size: 30px;
+  }
+  .ct01 section .name p {
+    width: 210px;
+    font-size: 10px;
+  }
+  .ct01 section .imgGroup .i1 {
+    height: 125px;
+    width: 125px;
+    right: -70px;
+  }
+  .ct01 section .imgGroup .i2 {
+    width: 280px;
+    height: 375px;
+  }
+  .ct01 section .imgGroup .i3 {
+    height: 125px;
+    width: 125px;
+    left: -70px;
+  }
+  .ct01 section .texts {
+    position: static;
+    padding-top: 215px;
+    padding-left: 40px;
+  }
+  .ct01 section .texts p {
+    width: 168px;
+    font-size: 10px;
+  }
+  .ct01 section .texts .btns button {
+    width: 90px;
+    font-size: 10px;
+  }
+  .lb section .image {
+    height: 330px;
+  }
+  .lb section .imgGroup {
+    row-gap: 10px;
+  }
+  .lb section .imgGroup .image {
+    height: 160px;
+  }
+  .store {
+    display: none;
+  }
+  .insta {
+    background-color: #fff;
+  }
+  .insta section article .texts h5 {
+    color: #000;
+  }
+  .insta section article .texts h3 {
+    color: #000;
+  }
+  .insta section .image {
+    height: 240px;
+  }
+  .banner .image {
+    height: 360px;
+  }
+  .ftrWrap footer {
+    padding: 20px 0;
+  }
+  .ftrWrap footer h4 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main section h3 {
+    padding: 0;
+  }
+  .main section .image {
+    width: 237px;
+    height: 207px;
+  }
+  div.content {
+    padding: 80px 0;
+  }
+  .ct01 section {
+    display: block;
+    position: relative;
+  }
+  .ct01 section .name {
+    text-align: left;
+  }
+  .ct01 section .name h3 {
+    font-size: 18px;
+  }
+  .ct01 section .name p {
+    width: 100%;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .ct01 section .name br {
+    display: none;
+  }
+  .ct01 section .imgGroup {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+  }
+  .ct01 section .imgGroup .i1 {
+    width: calc(100% - 220px);
+    height: 140px;
+    right: 0;
+    top: 20px;
+  }
+  .ct01 section .imgGroup .i2 {
+    width: 260px;
+    height: 330px;
+  }
+  .ct01 section .imgGroup .i3 {
+    width: calc(100% - 220px);
+    height: 140px;
+    left: 0;
+    bottom: 20px;
+  }
+  .ct01 section .texts {
+    padding: 0;
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .ct01 section .texts p {
+    width: 100%;
+    text-align: center;
+  }
+  .ct01 section .texts .btns {
+    margin-top: 40px;
+  }
+  .ct01 section .texts .btns button a {
+    font-size: 14px;
+  }
+  .lb {
+    background-color: #fff;
+  }
+  .lb header h3 {
+    color: #000;
+  }
+  .lb section {
+    display: block;
+  }
+  .lb section .image {
+    width: 100%;
+    height: 320px;
+  }
+  .lb section .imgGroup {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 10px;
+    margin-top: 10px;
+  }
+  .lb section .imgGroup .image {
+    width: calc(50% - 5px);
+    height: 200px;
+    margin: 0;
+  }
+  .insta {
+    background-color: #339;
+    padding: 0 !important;
+    height: 160px;
+  }
+  .insta section article {
+    width: 100%;
+    position: relative;
+  }
+  .insta section article .texts {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 180px;
+  }
+  .insta section article .texts h5 {
+    font-size: 8px;
+    color: #fff;
+  }
+  .insta section article .texts h3 {
+    color: #fff;
+  }
+  .insta section .image {
+    display: none;
+  }
+  .banner {
+    padding-top: 80px !important;
+  }
+  .banner .texts {
+    top: 160px;
+  }
+  .banner .texts h3 {
+    line-height: 40px;
+  }
+  .banner .texts .box {
+    font-size: 12px;
+  }
+  .banner .image {
+    height: 320px;
+  }
+}
